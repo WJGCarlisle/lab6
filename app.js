@@ -38,6 +38,10 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', index.view);
 app.get('/project/:id', project.projectInfo);
+
+//$.get("http://localhost:3000/profile/", callBackFn)
+
+//$.post("http://localhost:3000/profile/", {"json":"json"}, callBackFn)
 // Example route
 // app.get('/users', user.list);
 
